@@ -20,8 +20,8 @@ class Bird {
             this.brain = new NeuralNetwork(5, 8, 2);
         }
 
-        this.up_sprite = loadImage("../images/owl_up.png");
-        this.down_sprite = loadImage("../images/owl_down.png");
+        this.up_sprite = loadImage("./images/owl_up.png");
+        this.down_sprite = loadImage("./images/owl_down.png");
     }
 
     dispose() {
